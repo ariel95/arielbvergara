@@ -1,0 +1,32 @@
+#menu{
+    position: fixed;
+    right: 15px;
+    width: 300px;
+    bottom: 95px;
+    border: 1px solid #dadada;
+    background: white;
+}
+
+#menu .nav-item .nav-link{
+    color: var(--color-text);
+}
+#menu .nav-item .nav-link:hover{
+    color: white;
+}
+#menu .nav-item:hover{
+    background-color:#9ecdf3;
+}
+
+#menu{
+    height: 0;
+    border: none;
+    overflow: hidden;
+    transition: height 0.5s;
+}
+
+#menu.is-active{
+    height: 160px;
+    border: 1px;
+    border: 1px solid #dadada;
+}
+
