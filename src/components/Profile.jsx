@@ -14,7 +14,6 @@ const Profile = () => {
                         <h1 className="card-title title">Ariel Bernardo Vergara</h1>
                         <h3 className="card-text subtitle">Desarrollador Full Stack .NET</h3>   
                     </div>
-
                 </div>
             </div>
         </section>
