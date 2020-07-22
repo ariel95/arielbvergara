@@ -14,7 +14,7 @@ const Information = () => {
                     <PersonalInformation />
                     <Contact />
                 </div>
-                <div className="col-lg-8 col-md-8 col-xs-12">
+                <div className="experience col-lg-8 col-md-8 col-xs-12">
                     <Experience />
                     <Studies />
                     <Knowledge />

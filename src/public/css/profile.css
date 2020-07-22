@@ -10,3 +10,13 @@
     padding: 25px 10px;
     max-width: 200px;
 }
+
+@media screen and (max-width: 600px) {
+    #profile{
+        text-align: center;
+    }
+    #profile div{
+        display: block !important;
+    }
+    
+  }

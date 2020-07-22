@@ -14,10 +14,16 @@ const Menu = (props) => {
                 <a className="nav-link" href="#personal-information">Información personal</a>
             </li>
             <li className="nav-item">
+                <a className="nav-link" href="#contact">Contacto</a>
+            </li>
+            <li className="nav-item">
                 <a className="nav-link" href="#experience">Experiencia</a>
             </li>
             <li className="nav-item">
-                <a className="nav-link" href="#contact">Contacto</a>
+                <a className="nav-link" href="#knowledge">Conocimientos</a>
+            </li>
+            <li className="nav-item">
+                <a className="nav-link" href="#specific-training">Conocimientos especificos</a>
             </li>
             
         </ul>

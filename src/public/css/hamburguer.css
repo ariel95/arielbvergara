@@ -5,6 +5,10 @@
  * @site https://jonsuh.com/hamburgers
  * @link https://github.com/jonsuh/hamburgers
  */
+ :root{
+   --color-background-menu: #679fcb;
+   --color-text-menu: white;
+ }
  .hamburger {
     padding: 15px 15px;
     display: inline-block;
@@ -26,7 +30,7 @@
     .hamburger.is-active .hamburger-inner,
     .hamburger.is-active .hamburger-inner::before,
     .hamburger.is-active .hamburger-inner::after {
-      background-color: var(--color-title); }
+      background-color: var(--color-text-menu); }
   
   .hamburger-box {
     width: 40px;
@@ -41,7 +45,7 @@
     .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
       width: 30px;
       height: 4px;
-      background-color: var(--color-title);
+      background-color: var(--color-text-menu);
       border-radius: 4px;
       position: absolute;
       transition-property: transform;
@@ -715,8 +719,8 @@
       /* border: 3px solid red; */
       border-radius: 50%;
       padding: 15px;
-      background: white;
-      color: var(--color-title);
+      background: var(--color-background-menu);
+      /* color: var(--color-title); */
     }
 
     #hamburger {

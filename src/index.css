@@ -1,7 +1,7 @@
 :root{
   --color-text:#868686;
   --color-title: #679fcb;
-  --color-subtitle: black;
+  --color-subtitle: #000000c2;
 }
 
 html, #root{
@@ -21,6 +21,11 @@ html {
 
 a.link {
   text-decoration: underline;
+}
+
+a > img{
+  width: 25px;
+  margin-right: 5px;
 }
 
 section {
@@ -53,29 +58,51 @@ section {
 
 .container{
   background-color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.content {
+  padding: 15px 60px;
 }
 
 @media screen and (max-width: 900px) {
   .container{
     /* padding: 0 !important; */
     margin: 0 !important;
-    width: 100%;
+    width: auto;
     max-width: max-content;
   }
   #profile{
     margin-top: 0 !important;
   }
+
+  .content{
+    padding: 5px 15px;
+  }
   
 }
 
 @media screen and (max-width: 600px) {
-  .title{
+  h1.title {
     font-size: 25px;
-    text-align: center;
+    /* text-align: center; */
+  }
+  label.title {
+    font-size: 20px;
+    /* text-align: center; */
+  }
+  p.title {
+    font-size: 20px;
+    /* text-align: center; */
   }
   .subtitle{
     font-size: 20px;
-    text-align: center;
+    /* text-align: center; */
+  }
+
+  .experience > section{
+    padding: 0 !important;
   }
   
 }
